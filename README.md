@@ -1,2 +1,2 @@
 # Shelvra
-Source codes for thesali
+Source codes for Thesali
