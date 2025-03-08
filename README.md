@@ -1,2 +1,1 @@
-# Shelvra
-Source codes for Thesali
+# Thesali - Social Media for Book Readers
