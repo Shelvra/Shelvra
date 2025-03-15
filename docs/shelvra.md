@@ -37,6 +37,7 @@ I already set up the code base by doing:
 
    django-admin startproject config .
    python manage.py startapp users
+   python manage.py startapp books
    python manage.py startapp library
    python manage.py startapp social
    python manage.py startapp threads
@@ -52,4 +53,36 @@ I already set up the code base by doing:
    npm install chart.js @auth0/angular-jwt
    ```
 
-What is the next immediate step I should do? 
+   The angular front end has been set up with Sass(SCSS) and server-side rendering and static site generation.
+
+6. To create new angular components
+
+```
+# Create component within a specific folder
+ng g c features/dashboard
+
+# Create component with inline template and styles
+ng g c header --inline-template --inline-style
+# or shorter
+ng g c header -t -s
+
+# Create a component without tests
+ng g c footer --skip-tests
+
+# Create component under a specific module
+ng g c admin/user-management --module=admin
+
+# Create a standalone component (Angular 14+)
+ng g c shared/button --standalone
+```
+
+```
+# Creates admin feature with its components
+ng g c admin/dashboard
+ng g c admin/users
+ng g c admin/settings
+
+# Creates user feature components
+ng g c user/profile
+ng g c user/settings
+```
