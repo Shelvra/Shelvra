@@ -1,9 +1,26 @@
 .header {
     display:flex;
     background-color: #351a3a;
-    padding: 8px;
+    padding: 12px;
+    justify-content: space-between;
+    align-items:center;
 }
 
-.brand, .pages {
+.brand, .links {
     color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:8px;
+}
+
+.links {
+    font-size:14px;
+}
+
+.brand {
+    font-size: 24px;
+}
+
+.pages {
+    display:flex;
+    justify-content: flex-end;
 }
