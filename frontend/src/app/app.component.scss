@@ -4,3 +4,15 @@
     width: 400px;
     justify-content: center;
 }
+
+.tag {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.info {
+ display: flex;
+ flex-direction:column;
+ align-items: center;
+}
