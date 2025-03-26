@@ -31,3 +31,13 @@
     border-left: 1px solid #ddbddc;
     height: 300px;
 }
+
+@media (max-width: 1054px) {
+    .vertical-line {
+      border-top: 1px solid #ddbddc;
+      border-left:0px;
+      width:500px;
+      height:0px;
+      margin:0px 100px;
+    }
+  }
