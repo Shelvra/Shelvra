@@ -2,7 +2,7 @@
     display:flex;
     flex-direction:column;
     width: 400px;
-    height:150px;
+    height:200px;
     flex-basis:50px;
     align-items:center;
 }
@@ -13,53 +13,105 @@ input {
     margin:4px;
     font-size: 14px;
     background-color: #f0f2f5;
-    border-color: #1e3747;
+    border-radius: 8px;
+    border: 2px solid #1e3747;
+    color:#1e3747;
 }
 
 input::placeholder {
     color: #af696f;
 }
 
+input:active {
+    border: 2px solid #1e3747;
+}
+
 button {
-    width: 100px;
+    width: 258px;
     height: 30px;
-    padding: 4px;
+    padding: 6px;
     margin: 4px;
     font-size: 14px;
     background-color: #a676a4;
     color:#f0f2f5;
-    border-color:#1e3747;
+    border:0px solid #1e3747;
+    border-radius:8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
+button:hover {
+    background-color: #bf93bd;
+}
 button:active {
-    background-color: #ddbddc;
+    background-color: #bf93bd;
+    transform: translateY(2px);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 a {
     font-size:14px;
     margin: 8px;
-    color:#1e3747;
+    color:#40889c;
 }
+
+a:active{
+    color:#6fafcf;
+}
+hr {
+    height: 1px;
+    border:none;
+    background-color:#ddbddc;
+}
+
+.break {
+    width: 110px;
+  }
 
 .horizontal-line {
     width: 250px;
-    height: 1px;
-    border: none;
-    background-color: #ddbddc;
   }
 
 p {
     font-size:14px;
     color:#1e3747;
+    margin:30px 8px 6px 8px;
 }
 
 .signup {
     display: flex;
     justify-content:center;
     align-items: center;
+    flex-direction:column;
 }
 
 .terms {
     font-size:10px;
     margin:30px;
 }
+
+.or {
+    display:flex;
+    flex-direction:row;
+    width:260px;
+    align-items: center;
+
+}
+
+.loginApps {
+    background-color: #5c3a5c;
+}
+
+.loginApps:hover{
+    background-color:#7d537d;
+}
+
+.signup button {
+    background-color:#f0f2f5;
+    color:#5c3a5c;
+    border:2px solid #1e3747;
+}
+
+.signup button:hover {
+    background-color: white;
+}
+
